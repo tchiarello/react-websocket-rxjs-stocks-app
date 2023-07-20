@@ -1,0 +1,26 @@
+.text-field {
+  padding: 18px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--color-foreground3);
+  color: var(--color-foreground4);
+
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  width: 100%;
+
+  &:focus {
+    outline: none;
+  }
+
+  @media screen and (max-width: 640px) {
+    padding: 12px 18px;
+    font-size: 16px;
+  }
+}
+
+.input-error {
+  box-shadow: 0 0 0 3px var(--color-primary-red4);
+}

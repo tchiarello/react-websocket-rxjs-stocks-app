@@ -1,0 +1,18 @@
+.header {
+  margin-bottom: 56px;
+
+  a {
+    display: inline-block;
+  }
+
+  svg {
+    width: 300px;
+    height: auto;
+  }
+
+  @media screen and (max-width: 640px) {
+    svg {
+      width: 220px;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.stock {
+  text-align: center;
+
+  .card {
+    background-color: var(--color-foreground3);
+    border-radius: 8px;
+    color: var(--color-foreground4);
+    padding: 24px 16px;
+    margin: 0 auto;
+    margin-bottom: 12px;
+  }
+
+  .price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 40px;
+
+    p {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 23px;
+    }
+
+    h3 {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 42px;
+    }
+  }
+
+  .price-variation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .variation {
+    text-align: left;
+
+    p {
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 16px;
+      text-transform: uppercase;
+    }
+
+    h4 {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 23px;
+    }
+  }
+
+  .remove {
+    background: var(--color-primary-orange2);
+    padding: 8px 12px;
+  }
+}
