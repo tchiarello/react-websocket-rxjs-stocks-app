@@ -81,3 +81,9 @@ I wrote tests for:
 StockCard is the most "complex" of them because I needed to mock the WebSockt connection and mimic some RxJs behavior by mocking it.
 
 ---
+
+### Files
+
+![Desktop app image](./readme_files/desktop-app.png)
+
+![Mobile app image](./readme_files/mobile-app.png)
